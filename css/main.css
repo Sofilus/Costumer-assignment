@@ -8,3 +8,44 @@ header {
     background-size: cover;
     background-position: center;
 }
+
+
+/*-------------------------------------------------------------------------------------
+--------------------------------------- Menubutton looks and transition ----------------------------------------
+------------------------------------------------------------------------------------------*/
+
+
+.menubutton{
+    height: 35px;
+    width: 35px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.menubutton span{
+    background-color: black;
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin-bottom: 3px;
+    border-radius: 2px;
+}
+
+.menubutton span:nth-child(2) {
+    position: relative;
+    left: -3px;
+    transition: left 0.3s ease-in-out;
+}
+
+button.menubutton:hover span:nth-child(2){
+    left: 0;
+}
+
+nav {
+    text-align: right;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
