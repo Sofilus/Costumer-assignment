@@ -10,42 +10,67 @@ header {
 }
 
 
-/*-------------------------------------------------------------------------------------
---------------------------------------- Menubutton looks and transition ----------------------------------------
+/*----------------------------------------------------------------------------------------
+--------------------------------------- Menubutton and nav opening -----------------------
 ------------------------------------------------------------------------------------------*/
 
 
 .menubutton{
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 45px;
     border: none;
     background-color: transparent;
-    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+    pointer-events: none;
 }
 
 .menubutton span{
     background-color: black;
-    width: 100%;
-    height: 4px;
+    width: 35px;
+    height: 5px;
     display: block;
-    margin-bottom: 3px;
-    border-radius: 2px;
+    margin-bottom: 5px;
+    border-radius: 3px;
 }
 
-.menubutton span:nth-child(2) {
-    position: relative;
-    left: -3px;
-    transition: left 0.3s ease-in-out;
-}
 
-button.menubutton:hover span:nth-child(2){
-    left: 0;
+input {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 3;
+    width: 45px;
+    height: 40px;
+    opacity: 0;
 }
 
 nav {
-    text-align: right;
     position: fixed;
-    width: 100%;
     top: 0;
     left: 0;
+    background-color: rgba(106, 43, 43, 0.5);
+    width: 100vw;
+    height: 100vh;
+    visibility: hidden;
+    transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    opacity: 0;
+}
+
+input:checked + .menu nav{
+    visibility: visible;
+    opacity: 1;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    text-align: center;
 }
