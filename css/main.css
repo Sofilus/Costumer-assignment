@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-header {
+.front_page {
     height: 100vh;
     background-image: url("../assets/photos/adam-miller-dBaz0xhCkPY-unsplash.jpg");
     background-size: cover;
