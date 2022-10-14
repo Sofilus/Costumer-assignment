@@ -3,7 +3,7 @@
 }
 
 .front_page {
-    height: 100vh;
+    min-height: 100vh;
     background-image: url("../assets/photos/adam-miller-dBaz0xhCkPY-unsplash.jpg");
     background-size: cover;
     background-position: center;
@@ -119,6 +119,9 @@ ul {
     max-height: 350px;
 }
 
+.to_the_moon {
+    display: block;
+}
 
 .to_the_moon p{
     margin-top: 0%;
@@ -176,6 +179,17 @@ ul {
 --------------------------------------- Main ----------------------------------
 ------------------------------------------------------------------------------------------*/
 
+main {
+    min-height: 100vh;
+    background-image: url(../assets/photos/raphael-nogueira-svbDI1Pq30s-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+main article, main section {
+    width: 50%;
+}
 
 
 
@@ -197,3 +211,10 @@ ul {
     right: 5px;
  }
 } 
+
+@media only screen and (min-width: 1024px){
+    main {
+        display: flex;
+        gap: 100px;
+    }
+}
