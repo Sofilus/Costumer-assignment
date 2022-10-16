@@ -2,6 +2,12 @@
     box-sizing: border-box;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
 .front_page {
     min-height: 100vh;
     background-image: url("../assets/photos/adam-miller-dBaz0xhCkPY-unsplash.jpg");
@@ -234,6 +240,21 @@ blockquote::after{
     font-size: 3rem;
 }
 
+/*----------------------------------------------------------------------------------------
+--------------------------------------- Quote dont give up ----------------------------------
+------------------------------------------------------------------------------------------*/
+
+.quote_dont_give_up {
+    display: none;
+}
+
+/*----------------------------------------------------------------------------------------
+--------------------------------------- Major tom picture ----------------------------------
+------------------------------------------------------------------------------------------*/
+
+.major_tom_img {
+    display: none;
+}
 
 @media only screen and (min-width: 414px) {
     .container_tothemoon {
@@ -259,4 +280,17 @@ blockquote::after{
         display: flex;
         gap: 100px;
     }
+
+    .quote_dont_give_up{
+        display: block;
+    }
+
+    .major_tom_img {
+        display: block;
+        width: 100px;
+        height: auto;
+        float: right;
+        transform: rotate(3deg);
+    }
+    
 }
