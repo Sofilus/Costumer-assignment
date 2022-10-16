@@ -14,6 +14,7 @@
     background-size: cover;
     background-position: center;
     position: relative;
+    font-family: 'Rubik', sans-serif;
 }
 
 
@@ -202,10 +203,18 @@ main article, main section {
 --------------------------------------- Space Ventures text ----------------------------------
 ------------------------------------------------------------------------------------------*/
 
+.space_ventures{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
 .space_ventures h1 span:first-child {
     display: block;  
     position: relative;
     z-index: 1;
+    color: white;
+    text-shadow: 2px 2px 7px #000000;
 }
 
 .space_ventures h1 span:nth-of-type(2) {
@@ -213,6 +222,7 @@ main article, main section {
     top: -20px;
     left: 27px;
     z-index: 0;
+    color: rgba(255, 255, 255, 0.684);
 }
 
 blockquote {
@@ -238,6 +248,46 @@ blockquote::after{
     bottom: -3px;
     right: -3px;
     font-size: 3rem;
+}
+/*----------------------------------------------------------------------------------------
+--------------------------------------- Font-family rubik ----------------------------------
+------------------------------------------------------------------------------------------*/
+
+.font_rubik{
+    font-family: 'Rubik', sans-serif;
+}
+
+.font_rubik h2{
+    color: white;
+}
+
+.font_rubik p{
+
+color: white;
+}
+
+.font_rubik_italic{
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+}
+
+blockquote {
+    color: white;
+}
+
+.quote_and_tom p{
+    color: white;
+}
+
+.quote_and_tom q{
+    background: #D2C3CC;
+    background: radial-gradient(circle farthest-corner at center center, #D2C3CC 35%, #D200A2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+}
+a{
+    color:rgb(202, 37, 125);
 }
 
 /*----------------------------------------------------------------------------------------
