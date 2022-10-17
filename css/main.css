@@ -195,7 +195,7 @@ main {
     position: relative;
 }
 
-main article, main section {
+main div article, main div section {
     width: 100%;
 }
 
@@ -381,15 +381,18 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
-footer div p{
+.cookies p{
     margin-left: 30px;
     color: #D200A2;
     text-shadow:0 0 3px #D200A2 ;
 }
 
-footer div button{
+.cookies button{
     margin-right: 30px;
     background-color:rgb(25, 25, 147); 
     border: none;
@@ -432,7 +435,7 @@ footer div button{
 --------------------------------------- Main  --------------------------------------------
 ------------------------------------------------------------------------------------------*/
 
-main article, main section {
+main div article, main div section {
     width: 100%;
 }
 
@@ -503,7 +506,7 @@ blockquote{
 
 }
 @media only screen and (min-width: 900px){
-    main {
+    main div {
         display: flex;
         gap: 50px;
     }
@@ -521,7 +524,7 @@ blockquote{
 /*----------------------------------------------------------------------------------------
 --------------------------------------- Main  --------------------------------------------
 ------------------------------------------------------------------------------------------*/
-    main article, main section {
+    main div article, main div section {
     width: 100%;
     }
 /*----------------------------------------------------------------------------------------
