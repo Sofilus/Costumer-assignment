@@ -160,16 +160,7 @@ ul {
     top: 2px;
 }
 
-.read_our_story i{
-    margin-left: px;
-}
-
-.read_our_story p:nth-child(2){
-    position: relative;
-    left: 7px;
-}
-
-.read_our_story:hover p:nth-child(2) {
+.read_our_story:hover i {
     left: 15px;
 }
 
