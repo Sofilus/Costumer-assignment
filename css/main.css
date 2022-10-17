@@ -196,7 +196,7 @@ main {
 }
 
 main article, main section {
-    width: 50%;
+    width: 100%;
 }
 
 /*----------------------------------------------------------------------------------------
@@ -204,9 +204,13 @@ main article, main section {
 ------------------------------------------------------------------------------------------*/
 
 .space_ventures{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 3rem;
-    font-weight: bold;
+   
+    font-size: 1.8rem;
+    font-weight: bold; 
+}
+
+.space_ventures h1{
+    margin-bottom: 0;    
 }
 
 .space_ventures h1 span:first-child {
@@ -215,39 +219,117 @@ main article, main section {
     z-index: 1;
     color: white;
     text-shadow: 2px 2px 7px #000000;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
 }
 
 .space_ventures h1 span:nth-of-type(2) {
     position: relative;
-    top: -20px;
-    left: 27px;
+    top: -43px;
+    left: 50px;
     z-index: 0;
     color: rgba(255, 255, 255, 0.684);
+    font-family: 'Times New Roman', Times, serif;
 }
+
+
+
+/*----------------------------------------------------------------------------------------
+--------------------------------------- Ground control to major tom ----------------------
+------------------------------------------------------------------------------------------*/
+.font_rubik h2{
+    color: white;
+    font-size: 5vw;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    
+}
+
+.font_rubik p{
+    color: white;
+    font-size: 2.5vw;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 5px;
+    line-height: 1.6;
+}
+
+.font_rubik p span::after{
+    content: ' ';
+    display: block;
+    margin-top: 5px;
+}
+/*----------------------------------------------------------------------------------------
+-------------------------------------- Blockquote ----------------------------------
+------------------------------------------------------------------------------------------*/
 
 blockquote {
     padding: 0;
-    margin: 0;
     position: relative;
-    display: inline;
+    display: block;
+    margin-left: 40px;
+    margin-right: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 4vw;
+    color: white;
+}
+
+blockquote span::before{
+    content: ' ';
+    display: block;
 }
 
 blockquote::before{
     content: '"';
     display: block;
     position: absolute;
-    top: -3px; /*jobba med positioneringen så de hamnar rätt*/
-    left: -3px;
-    font-size: 3rem;
+    top: -5px; /*jobba med positioneringen så de hamnar rätt*/
+    left: -5px;
+    font-size: 6vw;
 }
 
 blockquote::after{
     content: '"';
     display: block;
     position: absolute;
-    bottom: -3px;
-    right: -3px;
-    font-size: 3rem;
+    top: 30px;
+    left: 60px;
+    font-size: 6vw;
+}
+/*----------------------------------------------------------------------------------------
+--------------------------------------- Quote and tom ----------------------------------
+------------------------------------------------------------------------------------------*/
+.quote_and_tom q{
+    background: #D2C3CC;
+    background: radial-gradient(circle farthest-corner at center center, #D2C3CC 35%, #D200A2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+    margin-right: 20%;
+    font-family: 'Rubik', sans-serif;
+}
+
+.quote_and_tom p{
+    color: white;
+    font-size: 2.5vw;
+    margin-left: 25px;
+    margin-right: 25px;
+    line-height: 1.6;
+}
+.quote_and_tom p span::before{
+        content: ' ';
+        display: block;
+        margin-top: 5px;
+    
+}
+
+a{
+    color:rgb(202, 37, 125);
+    height: 5vh;
+    display: block;
 }
 /*----------------------------------------------------------------------------------------
 --------------------------------------- Font-family rubik ----------------------------------
@@ -257,37 +339,9 @@ blockquote::after{
     font-family: 'Rubik', sans-serif;
 }
 
-.font_rubik h2{
-    color: white;
-}
-
-.font_rubik p{
-
-color: white;
-}
-
 .font_rubik_italic{
     font-family: 'Rubik', sans-serif;
     font-style: italic;
-}
-
-blockquote {
-    color: white;
-}
-
-.quote_and_tom p{
-    color: white;
-}
-
-.quote_and_tom q{
-    background: #D2C3CC;
-    background: radial-gradient(circle farthest-corner at center center, #D2C3CC 35%, #D200A2 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 2rem;
-}
-a{
-    color:rgb(202, 37, 125);
 }
 
 /*----------------------------------------------------------------------------------------
@@ -306,10 +360,29 @@ a{
     display: none;
 }
 
-@media only screen and (min-width: 414px) {
-    .container_tothemoon {
-        left: 7%;
-        top: 15%;
+/*----------------------------------------------------------------------------------------
+--------------------------------------- Read more about major tom ------------------------
+------------------------------------------------------------------------------------------*/
+
+.quote_and_tom a{
+    font-size: 2.5vw;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+/*----------------------------------------------------------------------------------------
+--------------------------------------- @mediaquery --------------------------------------
+------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 460px) {
+   
+/*----------------------------------------------------------------------------------------
+--------------------------------------- To the moon box ----------------------------------
+------------------------------------------------------------------------------------------*/
+
+.container_tothemoon {
+    left: 7%;
+    top: 15%;
 }  
 
 .to_the_moon_size {
@@ -323,17 +396,87 @@ a{
     position: absolute;
     right: 5px;
  }
-} 
+/*----------------------------------------------------------------------------------------
+--------------------------------------- Main  --------------------------------------------
+------------------------------------------------------------------------------------------*/
 
-@media only screen and (min-width: 1024px){
+main article, main section {
+    width: 100%;
+}
+
+ .space_ventures{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+/*----------------------------------------------------------------------------------------
+--------------------------------------- Ground control to major tom ----------------------
+------------------------------------------------------------------------------------------*/
+
+.font_rubik h2{
+    color: white;
+    font-size: 1.4rem;
+    margin-left: 40px;
+}
+
+.font_rubik p{
+    font-size: 0.7rem;
+    margin-left: 40px;
+}
+
+/*----------------------------------------------------------------------------------------
+--------------------------------------- blockquote ---------------------------------------
+------------------------------------------------------------------------------------------*/
+blockquote{
+    font-size: 1.2rem;
+    margin-left: 60px;
+
+}
+/*----------------------------------------------------------------------------------------
+--------------------------------------- Quote and tom ------------------------------------
+------------------------------------------------------------------------------------------*/
+
+.quote_and_tom p{
+    font-size: 0.7rem;
+    margin-left: 40px;
+}
+
+.quote_and_tom q{
+    font-size: 1.7rem;
+}
+
+.quote_and_tom a{
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+@media only screen and (min-width: 650px){
+
+/*----------------------------------------------------------------------------------------
+--------------------------------------- Ground control to major tom ----------------------
+------------------------------------------------------------------------------------------*/
+
+    .font_rubik p{
+        font-size: 0.8rem;
+        margin-left: 40px;
+    }
+/*----------------------------------------------------------------------------------------
+--------------------------------------- Quote and tom ------------------------------------
+------------------------------------------------------------------------------------------*/
+    .quote_and_tom p{
+        font-size: 0.8rem;
+        margin-left: 40px;
+    }
+
+}
+@media only screen and (min-width: 900px){
     main {
         display: flex;
-        gap: 100px;
+        gap: 50px;
     }
 
-    .quote_dont_give_up{
-        display: block;
-    }
+   
 
     .major_tom_img {
         display: block;
@@ -342,5 +485,90 @@ a{
         float: right;
         transform: rotate(3deg);
     }
+
+/*----------------------------------------------------------------------------------------
+--------------------------------------- Main  --------------------------------------------
+------------------------------------------------------------------------------------------*/
+    main article, main section {
+    width: 100%;
+    }
+/*----------------------------------------------------------------------------------------
+--------------------------------------- Ground control to major tom ----------------------
+------------------------------------------------------------------------------------------*/
+
+
+.font_rubik p{
+    font-size: 0.95rem;
+    margin-left: 40px;
+
+}
+
+/*----------------------------------------------------------------------------------------
+--------------------------------------- Blockquote ---------------------------------------
+------------------------------------------------------------------------------------------*/
+    blockquote{
+        font-size: 1.4rem;
+        margin-top: 60px;
+        margin-left: 80px;
+    }
+/*----------------------------------------------------------------------------------------
+--------------------------------------- Quote dont give up --------------------------------
+------------------------------------------------------------------------------------------*/
+ .quote_dont_give_up{
+        display: block;
+        margin-top: 70px;
+        margin-bottom: 30px;
+        margin-right: 60px;
+        margin-left: 40px;
+    }
+/*----------------------------------------------------------------------------------------
+--------------------------------------- Quote and tom --------------------------------
+------------------------------------------------------------------------------------------*/
+    .quote_and_tom p{
+        font-size: 0.95rem;
+    }
+}
+@media only screen and (min-width: 1100px){
+
+/*----------------------------------------------------------------------------------------
+--------------------------------------- Space ventures text--------------------------------
+------------------------------------------------------------------------------------------*/
+
+    .space_ventures{
+        font-size: 2.5rem;
+    }
+
+/*----------------------------------------------------------------------------------------
+--------------------------------------- Ground control to major tom ----------------------
+------------------------------------------------------------------------------------------*/
+
+    .font_rubik h2{
+        font-size: 1.8rem;
+    }
+
+/*----------------------------------------------------------------------------------------
+--------------------------------------- Blockquote ----------------------
+------------------------------------------------------------------------------------------*/
+
     
+ blockquote{
+    margin-top: 30px;
+ }
+
+/*----------------------------------------------------------------------------------------
+--------------------------------------- Quote and tom----------------------
+------------------------------------------------------------------------------------------*/
+.quote_and_tom q{
+    margin-top: 100px;
+    margin-right: 35%;
+    font-size: 1.8rem;
+}
+
+.quote_and_tom p{
+    margin-right: 120px;
+}
+
+.quote_and_tom a{
+    font-size: 0.95rem;
+}
 }
