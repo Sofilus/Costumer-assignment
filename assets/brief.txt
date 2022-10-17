@@ -32,7 +32,7 @@ På menyalternaitven la jag lite dropshadow för att de skulle sticka ut från b
 du som är så snitsig kan säkert få till det i koden.
 
 På desktop i menyn vill jag att det syns rosa linjer när man hovrar. Ingen dropshadow på linjen om
-det går?? Kanske inte funkar? Då kan du ha dropshadow!
+det går?? Kanske inte funkar? Då kan du ha dropshadow! //menar dom på bakgrunden eller strecken?
 
 Jag la inte in cookietexten på mobben men du kan väl fixa det! På desktop saknas länkpil men
 det ska såklart finnas där.
