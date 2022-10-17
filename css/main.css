@@ -196,12 +196,10 @@ main {
 }
 
 .textbox{
-    min-width: 300px;
+    width: 300px;
     min-height: 100vh;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); 
+   margin-left: auto;
+   margin-right: auto;
 }
 
 /*----------------------------------------------------------------------------------------
@@ -211,10 +209,13 @@ main {
 .space_ventures{
     font-size: 1.4rem;
     text-align: center;
+    margin-right: 60px;
 }
 
 .space_ventures h1{
     margin-bottom: 0;    
+    margin-top: 0;
+    height: 90px;
 }
 
 .space_ventures h1 span:first-child {
@@ -228,8 +229,8 @@ main {
 
 .space_ventures h1 span:nth-of-type(2) {
     position: relative;
-    top: -43px;
-    left: 80px;
+    top: -32px;
+    left: 40px;
     z-index: 0;
     color: rgba(255, 255, 255, 0.684);
     font-family: 'Times New Roman', Times, serif;
@@ -242,7 +243,7 @@ main {
 ------------------------------------------------------------------------------------------*/
 .font_rubik h2{
     color: white;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     margin-top: 0;
     margin-bottom: 5px;
     
@@ -250,7 +251,7 @@ main {
 
 .font_rubik p{
     color: white;
-    font-size: 0.55rem;
+    font-size: 0.6rem;
     margin-top: 5px;
     line-height: 1.6;
 }
@@ -304,7 +305,7 @@ blockquote::after{
     background: radial-gradient(circle farthest-corner at center center, #D2C3CC 35%, #D200A2 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 2rem;
+    font-size: 4rem;
     margin-right: 20%;
     margin-left: 0;
     font-family: 'Rubik', sans-serif;
@@ -312,7 +313,7 @@ blockquote::after{
 
 .quote_and_tom p{
     color: white;
-    font-size: 0.55rem;
+    font-size: 0.6rem;
     line-height: 1.6;
 }
 .quote_and_tom p span::before{
@@ -369,7 +370,7 @@ a{
 
 
 .cookies{
-    height: 10vh;
+    height: 60px;
     background-color: rgb(12, 18, 62);
     display: flex;
     justify-content: space-between;
@@ -433,8 +434,12 @@ a{
     font-size: 1.8rem;
 }
 
+.space_ventures h1{
+    height: 120px;
+}
+
 .textbox{
-    min-width: 450px;
+    width: 450px;
 }
 /*----------------------------------------------------------------------------------------
 --------------------------------------- Ground control to major tom ----------------------
@@ -442,13 +447,11 @@ a{
 
 .font_rubik h2{
     color: white;
-    font-size: 1.2rem;
-    margin-left: 40px;
+    font-size: 1.3rem;
 }
 
 .font_rubik p{
-    font-size: 0.7rem;
-    margin-left: 40px;
+    font-size: 0.75rem;
 }
 
 /*----------------------------------------------------------------------------------------
@@ -461,26 +464,22 @@ blockquote{
 
 blockquote::after{
     top: 35px;
-    left: 60px;
+    left: 64px;
 }
 /*----------------------------------------------------------------------------------------
 --------------------------------------- Quote and tom ------------------------------------
 ------------------------------------------------------------------------------------------*/
 
 .quote_and_tom p{
-    font-size: 0.7rem;
-    margin-left: 40px;
+    font-size: 0.75rem;
 }
 
 .quote_and_tom q{
     font-size: 1.7rem;
-    margin-left: 40px;
 }
 
 .quote_and_tom a{
-    font-size: 0.7rem;
-    margin-bottom: 10px;
-    margin-left: 40px;
+    font-size: 0.75rem;
 }
 
 /*----------------------------------------------------------------------------------------
@@ -497,64 +496,73 @@ blockquote::after{
 
 
 @media only screen and (min-width: 900px){
+
+/*----------------------------------------------------------------------------------------
+--------------------------------------- Main  --------------------------------------------
+------------------------------------------------------------------------------------------*/
     main div {
         display: flex;
-        gap: 5vw;
+        gap: 100px;
     }
 
-    main div article, main div article{
-        min-width: 45vw;
-        margin-right: 10px;
-        margin-left: 10px;
+    main div article {
+        margin-left: 5vw;
+
     }
-
-
 
     .textbox{
-       min-width: 100vw;
+       width: 100vw;
     }
-
-    
 
     .major_tom_img {
         display: block;
         width: 100px;
         height: auto;
         float: right;
-        transform: rotate(3deg);
-    }
+        transform: rotate(3deg);}
 
 /*----------------------------------------------------------------------------------------
---------------------------------------- Main  --------------------------------------------
+--------------------------------------- Space venture text ----------------------
 ------------------------------------------------------------------------------------------*/
-    main div article, main div section {
-    width: 100%;
-    }
+
+
+.space_ventures h1{
+    height: 220px;
+    font-size: 5rem;
+}
 
    
 /*----------------------------------------------------------------------------------------
 --------------------------------------- Ground control to major tom ----------------------
 ------------------------------------------------------------------------------------------*/
+main div article article{
+    margin-left: 0;
+}
 
-
+.font_rubik h2{
+    margin-bottom: 15px;
+    font-size: 1.7rem;
+}
 .font_rubik p{
-    font-size: 0.8rem;
-    margin-left: 40px;
-
+    font-size: 0.9rem;
 }
 
 /*----------------------------------------------------------------------------------------
 --------------------------------------- Blockquote ---------------------------------------
 ------------------------------------------------------------------------------------------*/
     blockquote{
-        font-size: 1.1rem;
+        font-size: 1.4rem;
         margin-top: 60px;
-        margin-left: 70px;
+        margin-left: 40px;
+        margin-right: 0;
     }
-
+    blockquote::before{
+        font-size: 1.4rem;
+    }
     blockquote::after{
-        top: 40px;
-        left: 70px;
+        top: 47px;
+        left: 87px;
+        font-size: 1.4rem;
     }
 /*----------------------------------------------------------------------------------------
 --------------------------------------- Quote dont give up --------------------------------
@@ -570,9 +578,12 @@ blockquote::after{
 --------------------------------------- Quote and tom --------------------------------
 ------------------------------------------------------------------------------------------*/
     .quote_and_tom p{
-        font-size: 0.8rem;
-        margin-right: 50px;
-        
+        font-size: 0.9rem;
+        margin-right: 5vw;
+    }
+
+    .quote_and_tom a{
+        font-size: 0.9rem;
     }
 }
 @media only screen and (min-width: 1100px){
@@ -581,16 +592,11 @@ blockquote::after{
         gap: 15vw;
     }
 
-    main div article, main div article{
-        margin-right: 0;
-        margin-left: 0;
-    }
-
 /*----------------------------------------------------------------------------------------
 --------------------------------------- Space ventures text--------------------------------
 ------------------------------------------------------------------------------------------*/
     .space_ventures{
-        font-size: 2.7rem;
+        font-size: 2.8rem;
     }
 
 /*----------------------------------------------------------------------------------------
@@ -601,7 +607,7 @@ blockquote::after{
         font-size: 1.9rem;
     }
     .font_rubik p{
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 /*----------------------------------------------------------------------------------------
 --------------------------------------- Blockquote ----------------------
@@ -610,7 +616,7 @@ blockquote::after{
     
  blockquote{
     margin-top: 30px;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
  }
 
 /*----------------------------------------------------------------------------------------
@@ -618,16 +624,27 @@ blockquote::after{
 ------------------------------------------------------------------------------------------*/
 .quote_and_tom q{
     margin-top: 100px;
-    font-size: 2.1rem;
+    font-size: 2.4rem;
     margin-left: 0;
 }
 .quote_and_tom p{
     margin-left: 0;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 .quote_and_tom a{
-    font-size: 0.95rem;
+    font-size: 1.1rem;
     margin-left: 0;
+}
+/*----------------------------------------------------------------------------------------
+--------------------------------------- Cookies ------------------------------------
+------------------------------------------------------------------------------------------*/
+.cookies p{
+    font-size: 1.1rem;
+}
+
+.cookies button{
+    padding: 8px 18px;
+    font-size: 1.1rem;
 }
 }
