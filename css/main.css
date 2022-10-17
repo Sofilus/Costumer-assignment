@@ -304,6 +304,7 @@ blockquote::after{
     background: #D2C3CC;
     background: radial-gradient(circle farthest-corner at center center, #D2C3CC 35%, #D200A2 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 4rem;
     margin-right: 20%;
@@ -404,7 +405,7 @@ a{
 --------------------------------------- @mediaquery --------------------------------------
 ------------------------------------------------------------------------------------------*/
 
-@media only screen and (min-width: 460px) {
+@media only screen and (min-width: 460px){
    
 /*----------------------------------------------------------------------------------------
 --------------------------------------- To the moon box ----------------------------------
@@ -493,7 +494,7 @@ blockquote::after{
     padding: 7px 11px;
     font-size: 0.8rem;
 }
-
+}
 
 @media only screen and (min-width: 900px){
 
@@ -586,6 +587,9 @@ main div article article{
         font-size: 0.9rem;
     }
 }
+
+
+
 @media only screen and (min-width: 1100px){
 
     main div {
@@ -644,7 +648,7 @@ main div article article{
 }
 
 .cookies button{
-    padding: 8px 18px;
+    padding: 8px 15px;
     font-size: 1.1rem;
 }
 }
