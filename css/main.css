@@ -159,10 +159,13 @@ ul {
     margin-left: 5px;
     position: relative;
     top: 2px;
+    left: 0;
+    transition: left 0.3s ease-in-out;
 }
 
 .read_our_story:hover i {
     left: 15px;
+    
 }
 
 
