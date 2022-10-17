@@ -381,15 +381,16 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
     bottom: 0;
     width: 100%;
+    
 }
 
 .cookies p{
     margin-left: 30px;
     color: #D200A2;
     text-shadow:0 0 3px #D200A2 ;
+    font-size: 0.7rem;
 }
 
 .cookies button{
@@ -398,11 +399,13 @@ a{
     border: none;
     color: white;
     padding: 7.5px 16px;
-    font-size: 1rem;
+    padding-top: 10px;
+    font-size: 0.7rem;
     font-weight: bold;
     margin-right:15px;
     cursor: pointer;
     text-transform: uppercase;
+
 }
 
 /*----------------------------------------------------------------------------------------
@@ -484,6 +487,18 @@ blockquote{
     font-size: 0.8rem;
     margin-bottom: 10px;
     margin-left: 40px;
+}
+
+/*----------------------------------------------------------------------------------------
+--------------------------------------- Cookies ------------------------------------
+------------------------------------------------------------------------------------------*/
+.cookies p{
+    font-size: 0.7rem;
+}
+
+.cookies button{
+    padding: 7px 11px;
+    font-size: 0.8rem;
 }
 
 @media only screen and (min-width: 650px){
