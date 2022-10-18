@@ -17,7 +17,6 @@
     font-family: 'Rubik', sans-serif;
 }
 
-
 /*----------------------------------------------------------------------------------------
 --------------------------------------- Menubutton and nav opening -----------------------
 ------------------------------------------------------------------------------------------*/
@@ -30,7 +29,7 @@
     position: fixed;
     top: 20px;
     right: 20px;
-    z-index: 2;
+    z-index: 3;
     pointer-events: none;
 }
 
@@ -116,22 +115,22 @@ li {
 
 .container_tothemoon div h2{
     text-transform: uppercase;
-    font-size: 8vw;
-}
-
-.container_tothemoon div h2 {
+    font-size: 8vw; 
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     margin-top: 0;
+    font-weight: 700;
 }
 
 .container_tothemoon div h2 span:nth-child(1){
     width: 40vw;
 }
+
 .container_tothemoon div h2 span:nth-child(2){
     width: 40vw;
 }
+
 .container_tothemoon div h2 span:nth-child(3){
     width: 40vw;
 }
@@ -173,9 +172,7 @@ li {
 
 .read_our_story:hover i {
     left: 15px;
-    
 }
-
 
 /*----------------------------------------------------------------------------------------
 --------------------------------------- Big arrow firstpage ----------------------------------
@@ -217,7 +214,7 @@ main {
 .space_ventures{
     font-size: 1.4rem;
     text-align: center;
-    margin-right: 60px;
+    margin-right: 120px;
 }
 
 .space_ventures h1{
@@ -233,28 +230,30 @@ main {
     color: white;
     text-shadow: 2px 2px 7px #000000;
     font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-size: 2.8rem;
 }
 
 .space_ventures h1 span:nth-of-type(2) {
     position: relative;
-    top: -32px;
-    left: 40px;
+    top: -40px;
+    left: 65px;
     z-index: 0;
     color: rgba(255, 255, 255, 0.684);
     font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 3.7rem;
 }
-
-
 
 /*----------------------------------------------------------------------------------------
 --------------------------------------- Ground control to major tom ----------------------
 ------------------------------------------------------------------------------------------*/
+
 .font_rubik h2{
     color: white;
     font-size: 0.9rem;
     margin-top: 0;
     margin-bottom: 5px;
-    
 }
 
 .font_rubik p{
@@ -269,6 +268,7 @@ main {
     display: block;
     margin-top: 5px;
 }
+
 /*----------------------------------------------------------------------------------------
 -------------------------------------- Blockquote ----------------------------------
 ------------------------------------------------------------------------------------------*/
@@ -281,6 +281,9 @@ blockquote {
     margin-bottom: 20px;
     font-size: 0.8rem;
     color: white;
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+    font-weight: 300;
 }
 
 blockquote span::before{
@@ -305,9 +308,11 @@ blockquote::after{
     left: 50px;
     font-size: 0.9rem;
 }
+
 /*----------------------------------------------------------------------------------------
 --------------------------------------- Quote and tom ----------------------------------
 ------------------------------------------------------------------------------------------*/
+
 .quote_and_tom q{
     background: #D2C3CC;
     background: radial-gradient(circle farthest-corner at center center, #D2C3CC 35%, #D200A2 100%);
@@ -318,6 +323,8 @@ blockquote::after{
     margin-right: 20%;
     margin-left: 0;
     font-family: 'Rubik', sans-serif;
+    font-style: italic;
+    font-weight: 300;
 }
 
 .quote_and_tom p{
@@ -325,6 +332,7 @@ blockquote::after{
     font-size: 0.6rem;
     line-height: 1.6;
 }
+
 .quote_and_tom p span::before{
         content: ' ';
         display: block;
@@ -384,15 +392,12 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    
 }
 
 .cookies p{
     margin-left: 30px;
     color: #D200A2;
-    text-shadow:0 0 3px #D200A2 ;
-    font-size: 0.7rem;
+    text-shadow:0 0 3px #D200A2;
 }
 
 .cookies button{
@@ -403,10 +408,10 @@ a{
     padding: 7.5px 16px;
     padding-top: 10px;
     font-size: 0.7rem;
-    margin-right:15px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
     cursor: pointer;
     text-transform: uppercase;
-
 }
 
 /*----------------------------------------------------------------------------------------
@@ -445,6 +450,10 @@ a{
 
 .space_ventures h1{
     height: 120px;
+}
+
+.space_ventures h1 span:nth-of-type(2){
+    left: 85px;
 }
 
 .textbox{
@@ -621,8 +630,6 @@ main div article article{
         font-size: 0.9rem;
     }
 }
-
-
 
 @media only screen and (min-width: 1100px){
 
