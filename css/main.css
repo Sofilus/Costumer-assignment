@@ -194,7 +194,7 @@ li {
 
 main {
     min-height: 100vh;
-    background-image: url(../assets/photos/raphael-nogueira-svbDI1Pq30s-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/photos/raphael-nogueira-svbDI1Pq30s-unsplash.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -344,6 +344,19 @@ a{
     height: 5vh;
     display: block;
 }
+
+a i{
+    margin-left: 5px;
+    position: relative;
+    top: 2px;
+    left: 0;
+    transition: left 0.3s ease-in-out;
+}
+
+a:hover i {
+    left: 15px;
+}
+
 /*----------------------------------------------------------------------------------------
 --------------------------------------- Font-family rubik ----------------------------------
 ------------------------------------------------------------------------------------------*/
