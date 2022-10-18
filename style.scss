@@ -1,0 +1,17 @@
+
+@import 'styles/_base.scss';
+
+@media screen and (min-width: 460px){
+    @import 'styles/460-900px.scss';
+}
+
+@media screen and (min-width: 900px){
+    @import 'styles/900-1100px.scss';
+}
+
+@media screen and (min-width: 1100px){
+    @import 'styles/desktop.scss';
+}
+
+
+

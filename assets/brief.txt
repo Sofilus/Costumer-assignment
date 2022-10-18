@@ -24,7 +24,7 @@ Juste, bastypsnittet är Rubik, jag tog nåt webbvänligt. Och sen har jag kört
 på Ventures.
 
 På menyn vore det snyggt om alla balkarna rörde sig så att de ligger i linje, när man för musen
-över dem. // 
+över dem. 
 
 Read Our Story-pilen ska också åka ut på samma sätt som den innan när man hovrar.
 
