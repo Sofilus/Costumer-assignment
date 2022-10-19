@@ -15,7 +15,7 @@ pilen tillbaka. Lite snappy sådär, inget jättelångsamt. Men inte för fort h
 Texten i mitten "And I'm floating..." ska vara ett citat. Vi kör platshållartext så länge tills jag får det
 riktiga citatet av vår VD. Om du har tid vore det snyggt om citattecknen kom automatiskt när man
 lägger in citat och liksom lägger sig lite bakom texten? Om du fattar vad jag menar? Och samma
-i slutet på citatet, att det ligger lite under sista bokstaven. //Vad menas med att de ska komma upp automatiskt? Bakom texten?
+i slutet på citatet, att det ligger lite under sista bokstaven. 
 
 På Save Ventures ska det vara lite genomskinlighet på Ventures-ordet och det ska ligga lite
 bakom, om du fattar. Du ser på skissen.

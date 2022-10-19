@@ -103,13 +103,6 @@ li {
     font-weight: 700;
 }
 
-
-li:hover{
-    text-decoration: underline;
-    text-decoration-color: #D200A2;
-    text-decoration-thickness: 8px;
-}
-
 /*----------------------------------------------------------------------------------------
 --------------------------------------- To the moon box ----------------------------------
 ------------------------------------------------------------------------------------------*/
@@ -255,7 +248,7 @@ main {
     top: -40px;
     left: 65px;
     z-index: 0;
-    color: rgba(255, 255, 255, 0.684);
+    color: rgba(255, 255, 255, 0.503);
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 3.7rem;
@@ -300,6 +293,7 @@ blockquote {
     font-family: 'Rubik', sans-serif;
     font-style: italic;
     font-weight: 300;
+    line-height: 1.2;
 }
 
 blockquote span::before{
@@ -331,13 +325,13 @@ blockquote::after{
 
 .quote_and_tom q{
     background: #FFFFFF;
-background: radial-gradient(circle farthest-corner at center center, #ffffff3c 0%, #d200a12e 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    background: radial-gradient(circle farthest-corner at center center, #ffffff3c 0%, #d200a12e 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
      background-clip: text;
     font-size: 4rem;
     margin-right: 20%;
-    margin-left: 0;
+    margin-left: 0; 
     font-family: 'Rubik', sans-serif;
     font-style: italic;
     font-weight: 300;
