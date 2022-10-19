@@ -12,25 +12,28 @@ li:hover{
 /*----------------------------------------------------------------------------------------
 --------------------------------------- To the moon box -----------------------------------
 ------------------------------------------------------------------------------------------*/
+
 .to_the_moon_size{
     height:28vw;
-    max-height: 300px;
 }
+
 .container_tothemoon div h2{
     font-size: 5rem;
     margin-top: 50px;
-    margin-bottom: 0;
 }
+
 .container_tothemoon div h2 span:nth-child(1){
     width: 50%;
     position: relative;
-    left: 4%;
+    left: 3%;
 }
+
 .container_tothemoon div h2 span:nth-child(2){
     width: 50%;
     position: relative;
-    right: 6%;
+    right: 7%;
 }
+
 .container_tothemoon div h2 span:nth-child(3){
     width: 100%;
 }
@@ -38,34 +41,36 @@ li:hover{
 /*----------------------------------------------------------------------------------------
 --------------------------------------- Main  --------------------------------------------
 ------------------------------------------------------------------------------------------*/
-    main{
-            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/Users/sofiaolsson/github-classroom/Medieinstitutet/inl-2-kundprojekt-Sofilus/assets/photos/raphael-nogueira-svbDI1Pq30s-unsplash-rotaded.jpg");
-        }
 
-    main div {
-        display: flex;
-        gap: 100px;
+main{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/Users/sofiaolsson/github-classroom/Medieinstitutet/inl-2-kundprojekt-Sofilus/assets/photos/raphael-nogueira-svbDI1Pq30s-unsplash-rotaded.jpg");
     }
 
-    main div article {
-        margin-left: 5vw;
+main div {
+    display: flex;
+    gap: 100px;
+}
 
-    }
+main div article {
+    margin-left: 5vw;
+}
 
-    .textbox{
-       width: 100vw;
-    }
+.textbox{
+    width: 100vw;
+}
 
-    .major_tom_img {
-        display: block;
-        width: 100px;
-        height: auto;
-        float: right;
-        transform: rotate(3deg);}
+.major_tom_img {
+    display: block;
+    width: 100px;
+    height: auto;
+    float: right;
+    transform: rotate(3deg);
+}
 
 /*----------------------------------------------------------------------------------------
---------------------------------------- Space venture text ----------------------
+--------------------------------------- Space venture text -------------------------------
 ------------------------------------------------------------------------------------------*/
+
 .space_ventures {
     height: 25vh;
     margin-bottom: 50px;
@@ -87,55 +92,63 @@ li:hover{
 /*----------------------------------------------------------------------------------------
 --------------------------------------- Ground control to major tom ----------------------
 ------------------------------------------------------------------------------------------*/
+
 main div article article{
     margin-left: 0;
 }
 
-.font_rubik h2{
+.major_tom h2{
     margin-bottom: 15px;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
 }
-.font_rubik p{
+
+.major_tom p{
     font-size: 0.9rem;
 }
 
 /*----------------------------------------------------------------------------------------
 --------------------------------------- Blockquote ---------------------------------------
 ------------------------------------------------------------------------------------------*/
-    blockquote{
-        font-size: 1.3rem;
-        margin-top: 60px;
-        margin-left: 40px;
-        margin-right: 0;
-    }
-    blockquote::before{
-        font-size: 6rem;
-        left: -20px;
-        top:-30px;
-    }
-    blockquote::after{
-        top: 40px;
-        left: 65px;
-        font-size: 6rem;
-    }
+
+blockquote{
+    font-size: 1.2rem;
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 0;
+}
+
+blockquote::before{
+    font-size: 6rem;
+    top:-30px;
+    left: -20px;
+}
+
+blockquote::after{
+    font-size: 6rem;
+    top: 40px;
+    left: 65px;
+}
+
 /*----------------------------------------------------------------------------------------
 --------------------------------------- Quote dont give up --------------------------------
 ------------------------------------------------------------------------------------------*/
- .quote_dont_give_up{
-        display: block;
-        margin-top: 70px;
-        margin-bottom: 30px;
-        margin-right: 60px;
-       
-    }
-/*----------------------------------------------------------------------------------------
---------------------------------------- Quote and tom --------------------------------
-------------------------------------------------------------------------------------------*/
-    .quote_and_tom p{
-        font-size: 0.9rem;
-        margin-right: 5vw;
-    }
 
-    .quote_and_tom a{
-        font-size: 0.9rem;
-    }
+.quote_dont_give_up{
+    display: block;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-right: 60px;
+}
+
+/*----------------------------------------------------------------------------------------
+--------------------------------------- Quote and tom ------------------------------------
+------------------------------------------------------------------------------------------*/
+
+.quote_and_tom p{
+    font-size: 0.9rem;
+    margin-right: 5vw;
+}
+
+.quote_and_tom a{
+    font-size: 0.9rem;
+}
