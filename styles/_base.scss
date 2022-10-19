@@ -330,11 +330,11 @@ blockquote::after{
 ------------------------------------------------------------------------------------------*/
 
 .quote_and_tom q{
-    background: #D2C3CC;
-    background: radial-gradient(circle farthest-corner at center center, #D2C3CC 35%, #D200A2 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background: #FFFFFF;
+background: radial-gradient(circle farthest-corner at center center, #ffffff3c 0%, #d200a12e 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+     background-clip: text;
     font-size: 4rem;
     margin-right: 20%;
     margin-left: 0;
@@ -342,6 +342,7 @@ blockquote::after{
     font-style: italic;
     font-weight: 300;
     quotes: none;
+    width: 30vw;
 }
 
 .quote_and_tom p{
