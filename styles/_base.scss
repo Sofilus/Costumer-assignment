@@ -279,62 +279,44 @@ main {
 
 /*----------------------------------------------------------------------------------------
 -------------------------------------- Blockquote ----------------------------------
-------------------------------------------------------------------------------------------*/
-
-blockquote {
-    position: relative;
-    margin-right: 25px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 0.8rem;
-    color: white;
-    font-family: 'Rubik', sans-serif;
-    font-style: italic;
-    font-weight: 300;
-    line-height: 1.2;
-}
-
-blockquote span{
-    position: relative;
-    z-index: 1;
-}
+------------------------------------------------------------------------------------------*/  
 
 blockquote span::before{
     content: ' ';
     display: block;
 }
 
-blockquote span:nth-child(1)::before{
-    content: '”';
+blockquote {
+    position: relative;
+    font-style: italic;
+    color: white;
+    font-size: 0.8rem;
+    margin-right: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  blockquote::before, blockquote::after {
     display: block;
     position: absolute;
-    top: -5px; /*jobba med positioneringen så de hamnar rätt*/
-    left: -5px;
-    font-size: 4rem;
-    font-weight: bold;
-    color: blueviolet;
-    opacity: 0.8;
-    z-index: 0;
-    line-height: 1;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
-}
+    font-size: 3rem;
+    font-family: Georgia, 'Times   New Roman', Times, serif;
+    opacity: 0.7;
+  }
 
-blockquote span:nth-child(3)::after{
-    content: '”';
-    display: block;
-    position: absolute;
-    top: 30px;
-    left: 50px;
-    font-size: 4rem;
-    font-weight: bold;
-    color: blueviolet;
-    opacity: 0.8;
-    z-index: 0;
-    line-height: 1;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
-    
-}
+  blockquote::before {
+    content: open-quote;
+    top: -15px;
+    left: -15px;
+    color: grey;
+  }
 
+  blockquote::after {
+    content: close-quote;
+    bottom: -40px;
+    right: 180px;
+    color: grey;
+  }
 /*----------------------------------------------------------------------------------------
 --------------------------------------- Quote and tom ----------------------------------
 ------------------------------------------------------------------------------------------*/
@@ -439,6 +421,7 @@ a:hover i {
     margin-left: 30px;
     color: #D200A2;
     text-shadow:0 0 3px #D200A2;
+    font-size: 0.7rem;
 }
 
 .cookies button{

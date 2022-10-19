@@ -103,18 +103,20 @@ main div article article{
 --------------------------------------- Blockquote ---------------------------------------
 ------------------------------------------------------------------------------------------*/
     blockquote{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         margin-top: 60px;
         margin-left: 40px;
         margin-right: 0;
     }
     blockquote::before{
-        font-size: 1.4rem;
+        font-size: 6rem;
+        left: -20px;
+        top:-30px;
     }
     blockquote::after{
-        top: 47px;
-        left: 87px;
-        font-size: 1.4rem;
+        top: 40px;
+        left: 65px;
+        font-size: 6rem;
     }
 /*----------------------------------------------------------------------------------------
 --------------------------------------- Quote dont give up --------------------------------
