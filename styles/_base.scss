@@ -55,6 +55,7 @@ input {
     width: 45px;
     height: 40px;
     opacity: 0;
+    cursor: pointer;
 }
 
 input:hover + .menu .menu_button span:nth-child(2) {
