@@ -45,6 +45,7 @@
 .menu_button span:nth-child(2){
     position: relative;
     right: 5px;
+    transition: right 0.3s ease-in-out;
 }
 
 input {
@@ -60,7 +61,7 @@ input {
 
 input:hover + .menu .menu_button span:nth-child(2) {
     right: 0px;
-  }
+}
 
 nav {
     position: fixed;
