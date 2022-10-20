@@ -14,7 +14,7 @@ body{
 
 .front_page {
     min-height: 100vh;
-    background-image: url("/Users/sofiaolsson/github-classroom/Medieinstitutet/inl-2-kundprojekt-Sofilus/assets/photos/adam-miller-dBaz0xhCkPY-unsplash.jpg");
+    background-image: url("./assets/photos/adam-miller-dBaz0xhCkPY-unsplash.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -196,10 +196,10 @@ li {
 
 main {
     min-height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/Users/sofiaolsson/github-classroom/Medieinstitutet/inl-2-kundprojekt-Sofilus/assets/photos/raphael-nogueira-svbDI1Pq30s-unsplash.jpg");
-    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./assets/photos/raphael-nogueira-svbDI1Pq30s-unsplash-compressed (1).jpg");
     background-position: center;
     position: relative;
+    background-size: cover;
 }
 
 .textbox{
