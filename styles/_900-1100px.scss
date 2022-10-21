@@ -1,7 +1,7 @@
-//Skärmar mellan 900-1100px
+//Screens between 900-1100px
 
 /*----------------------------------------------------------------------------------------
---------------------------------------- Menubutton and nav opening ------------------------
+--------------------------------------- Menubutton and nav opening -----------------------
 ------------------------------------------------------------------------------------------*/
 
 li:hover{
@@ -9,8 +9,9 @@ li:hover{
     text-decoration-color: #D200A2;
     text-decoration-thickness: 8px;
 }
+
 /*----------------------------------------------------------------------------------------
---------------------------------------- To the moon box -----------------------------------
+--------------------------------------- To the moon box ----------------------------------
 ------------------------------------------------------------------------------------------*/
 
 .to_the_moon_size{
@@ -43,15 +44,15 @@ li:hover{
 ------------------------------------------------------------------------------------------*/
 
 main{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./assets/photos/raphael-nogueira-svbDI1Pq30s-unsplash-rotaded-compressed (1).jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./assets/photos/raphael-nogueira-svbDI1Pq30s-unsplash-rotaded-compressed (1).jpg");
 }
 
-main div {
+main div{
     display: flex;
     gap: 100px;
 }
 
-main div article {
+main div article{
     margin-left: 5vw;
 }
 
@@ -59,7 +60,7 @@ main div article {
     width: 100vw;
 }
 
-.major_tom_img {
+.major_tom_img{
     display: block;
     width: 100px;
     height: auto;
@@ -71,7 +72,7 @@ main div article {
 --------------------------------------- Space venture text -------------------------------
 ------------------------------------------------------------------------------------------*/
 
-.space_ventures {
+.space_ventures{
     height: 25vh;
     margin-bottom: 50px;
 }
@@ -84,7 +85,7 @@ main div article {
     font-size: 4rem;
 }
 
-.space_ventures h1 span:nth-of-type(2) {
+.space_ventures h1 span:nth-of-type(2){
     left: 10px;
     font-size: 5rem;
 }
@@ -130,7 +131,7 @@ blockquote::after{
 }
 
 /*----------------------------------------------------------------------------------------
---------------------------------------- Quote dont give up --------------------------------
+--------------------------------------- Quote dont give up -------------------------------
 ------------------------------------------------------------------------------------------*/
 
 .quote_dont_give_up{

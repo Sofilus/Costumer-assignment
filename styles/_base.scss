@@ -1,3 +1,5 @@
+//Screens smaler than 460px
+
 *{
     box-sizing: border-box;
 }
@@ -6,13 +8,13 @@ body{
     font-family: 'Rubik', sans-serif;
 }
 
-.clearfix::after {
+.clearfix::after{
     content: "";
     clear: both;
     display: table;
   }
 
-.front_page {
+.front_page{
     min-height: 100vh;
     background-image: url("./assets/photos/adam-miller-dBaz0xhCkPY-unsplash.jpg");
     background-size: cover;
@@ -51,7 +53,7 @@ body{
     transition: right 0.3s ease-in-out;
 }
 
-input {
+input{
     position: fixed;
     top: 20px;
     right: 20px;
@@ -62,7 +64,7 @@ input {
     cursor: pointer;
 }
 
-input:hover + .menu .menu_button span:nth-child(2) {
+input:hover + .menu .menu_button span:nth-child(2){
     right: 0px;
 }
 
@@ -84,7 +86,7 @@ input:checked + .menu nav{
     opacity: 1;
 }
 
-ul {
+ul{
     margin: 0;
     padding: 0;
     list-style: none;
@@ -98,7 +100,7 @@ ul {
     text-transform: uppercase;
 }
 
-li {
+li{
     margin-right: 20px;
     margin-left: 20px;
     cursor: pointer;
@@ -109,7 +111,7 @@ li {
 --------------------------------------- To the moon box ----------------------------------
 ------------------------------------------------------------------------------------------*/
 
-.container_tothemoon {
+.container_tothemoon{
     height: 38vw;
     width: 40vw;
     min-width: 121px;
@@ -155,7 +157,7 @@ li {
     max-height: 300px;
 }
 
-.read_our_story {
+.read_our_story{
     background:none;
     border:none;
     padding:0;
@@ -172,15 +174,15 @@ li {
     transition: left 0.3s ease-in-out;
 }
 
-.read_our_story:hover i {
+.read_our_story:hover i{
     left: 15px;
 }
 
 /*----------------------------------------------------------------------------------------
---------------------------------------- Big arrow firstpage ----------------------------------
+--------------------------------------- Big arrow firstpage ------------------------------
 ------------------------------------------------------------------------------------------*/
 
-.fa-sharp.fa-solid.fa-arrow-down {
+.fa-sharp.fa-solid.fa-arrow-down{
     color: white;
     width: 50px;
     height: 50px;
@@ -191,10 +193,10 @@ li {
 }
 
 /*----------------------------------------------------------------------------------------
---------------------------------------- Main ----------------------------------
+--------------------------------------- Main ---------------------------------------------
 ------------------------------------------------------------------------------------------*/
 
-main {
+main{
     min-height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./assets/photos/raphael-nogueira-svbDI1Pq30s-unsplash-compressed (1).jpg");
     background-position: center;
@@ -210,7 +212,7 @@ main {
 }
 
 /*----------------------------------------------------------------------------------------
---------------------------------------- Space Ventures text ----------------------------------
+--------------------------------------- Space Ventures text ------------------------------
 ------------------------------------------------------------------------------------------*/
 
 .space_ventures{
@@ -223,7 +225,7 @@ main {
     top: 5vh;
 }
 
-.space_ventures h1 span:first-child {
+.space_ventures h1 span:first-child{
     display: block;  
     position: relative;
     z-index: 1;
@@ -233,7 +235,7 @@ main {
     font-size: 3.2rem;
 }
 
-.space_ventures h1 span:nth-of-type(2) {
+.space_ventures h1 span:nth-of-type(2){
     position: relative;
     top: -40px;
     left: 50px;
@@ -269,7 +271,7 @@ main {
 }
 
 /*----------------------------------------------------------------------------------------
--------------------------------------- Blockquote ----------------------------------
+-------------------------------------- Blockquote ----------------------------------------
 ------------------------------------------------------------------------------------------*/  
 
 blockquote span::before{
@@ -277,7 +279,12 @@ blockquote span::before{
     display: block;
 }
 
-blockquote {
+blockquote span{
+    position: relative;
+    z-index: 1;
+}
+
+blockquote{
     position: relative;
     font-style: italic;
     color: white;
@@ -287,29 +294,31 @@ blockquote {
     margin-bottom: 20px;
   }
 
-  blockquote::before, blockquote::after {
+  blockquote::before, blockquote::after{
     display: block;
     position: absolute;
     font-size: 3rem;
     font-family: Georgia, 'Times   New Roman', Times, serif;
     opacity: 0.7;
+    z-index: 0;
   }
 
-  blockquote::before {
+  blockquote::before{
     content: open-quote;
     top: -15px;
     left: -15px;
     color: grey;
   }
 
-  blockquote::after {
+  blockquote::after{
     content: close-quote;
     bottom: -40px;
     right: 180px;
     color: grey;
   }
+
 /*----------------------------------------------------------------------------------------
---------------------------------------- Quote and tom ----------------------------------
+--------------------------------------- Quote and tom ------------------------------------
 ------------------------------------------------------------------------------------------*/
 
 .quote_and_tom q{
@@ -334,9 +343,9 @@ blockquote {
 }
 
 .quote_and_tom p span::before{
-        content: ' ';
-        display: block;
-        margin-top: 5px;
+    content: ' ';
+    display: block;
+    margin-top: 5px;
 }
 
 a{
@@ -353,23 +362,23 @@ a i{
     transition: left 0.3s ease-in-out;
 }
 
-a:hover i {
+a:hover i{
     left: 15px;
 }
 
 /*----------------------------------------------------------------------------------------
---------------------------------------- Quote dont give up ----------------------------------
+--------------------------------------- Quote dont give up -------------------------------
 ------------------------------------------------------------------------------------------*/
 
-.quote_dont_give_up {
+.quote_dont_give_up{
     display: none;
 }
 
 /*----------------------------------------------------------------------------------------
---------------------------------------- Major tom picture ----------------------------------
+--------------------------------------- Major tom picture --------------------------------
 ------------------------------------------------------------------------------------------*/
 
-.major_tom_img {
+.major_tom_img{
     display: none;
 }
 
@@ -382,7 +391,7 @@ a:hover i {
 }
 
 /*----------------------------------------------------------------------------------------
---------------------------------------- Cookies --------------------------------------
+--------------------------------------- Cookies ------------------------------------------
 ------------------------------------------------------------------------------------------*/
 
 .cookies{

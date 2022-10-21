@@ -1,10 +1,10 @@
-//Skärmar större än 1100 px
+//Screens bigger then 1100 px
 
 /*----------------------------------------------------------------------------------------
 --------------------------------------- Main----------------------------------------------
 ------------------------------------------------------------------------------------------*/
 
-main div {
+main div{
     gap: 15vw;
 }
 
@@ -12,7 +12,7 @@ main div {
 --------------------------------------- Space ventures text-------------------------------
 ------------------------------------------------------------------------------------------*/
 
-.space_ventures {
+.space_ventures{
     height: 25vh;
     margin-bottom: 80px;
 }
@@ -25,7 +25,7 @@ main div {
     font-size: 5rem;
 }
 
-.space_ventures h1 span:nth-of-type(2) {
+.space_ventures h1 span:nth-of-type(2){
     left: 10px;
     top: -45px;
     font-size: 6rem;
@@ -47,11 +47,10 @@ main div {
 --------------------------------------- Blockquote ---------------------------------------
 ------------------------------------------------------------------------------------------*/
 
-
 blockquote{
-margin-top: 30px;
-font-size: 1.48rem;
-margin-left: 30px;
+    margin-top: 30px;
+    font-size: 1.48rem;
+    margin-left: 30px;
 }
 
 blockquote::after{
@@ -63,16 +62,16 @@ blockquote::after{
 ------------------------------------------------------------------------------------------*/
 
 .quote_and_tom q{
-margin-top: 100px;
-font-size: 2.4rem;
+    margin-top: 100px;
+    font-size: 2.4rem;
 }
 
 .quote_and_tom p{
-font-size: 0.9rem;
+    font-size: 0.9rem;
 }
 
 .quote_and_tom a{
-font-size: 1.1rem;
+    font-size: 1.1rem;
 }
 
 /*----------------------------------------------------------------------------------------
@@ -80,10 +79,10 @@ font-size: 1.1rem;
 ------------------------------------------------------------------------------------------*/
 
 .cookies p{
-font-size: 1.1rem;
+    font-size: 1.1rem;
 }
 
 .cookies button{
-padding: 8px 15px;
-font-size: 1.1rem;
+    padding: 8px 15px;
+    font-size: 1.1rem;
 }

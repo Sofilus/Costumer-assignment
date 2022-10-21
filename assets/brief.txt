@@ -10,7 +10,7 @@ Jag har inte gjort någon pil men jag tänker att du kan hitta nån. Jag använd
 att göra pilen, men det finns säkert nåt bra sätt du kan lösa det på. Jag har inte heller placerat den
 ordentligt i förhållande till texten. Jag vill att när man för musen över texten så ska pilen åka lite till
 höger. Men inte "hoppa" utan det ska vara en smooth rörelse. Sen när man tar bort musen så åker
-pilen tillbaka. Lite snappy sådär, inget jättelångsamt. Men inte för fort heller så man inte hinner se. //Vilken pil?
+pilen tillbaka. Lite snappy sådär, inget jättelångsamt. Men inte för fort heller så man inte hinner se.
 
 Texten i mitten "And I'm floating..." ska vara ett citat. Vi kör platshållartext så länge tills jag får det
 riktiga citatet av vår VD. Om du har tid vore det snyggt om citattecknen kom automatiskt när man
@@ -60,7 +60,7 @@ Hälsningar Kantarella
 
 PS. Vår ekonomichef kör webben utan CSS så kolla att sidan ser schysst ut även utan CSS,
 du vet - läsbar. Och kolla så det går att tabba å sånt. Ja du vet, du har ju koll på det där med
-tillgänglighet. // Tabba och sånt?
+tillgänglighet.
 
 PS2. Menyn ska följa med på sidan när man scrollar!
 
